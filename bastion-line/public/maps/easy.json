@@ -1,0 +1,514 @@
+{
+  "type": "map",
+  "version": "1.10",
+  "tiledversion": "1.10.2",
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "infinite": false,
+  "width": 20,
+  "height": 12,
+  "tilewidth": 48,
+  "tileheight": 48,
+  "compressionlevel": -1,
+  "backgroundcolor": "#6fa84f",
+  "properties": [
+    {
+      "name": "id",
+      "type": "string",
+      "value": "easy"
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "value": "Greenhollow Road"
+    },
+    {
+      "name": "difficulty",
+      "type": "string",
+      "value": "Easy"
+    },
+    {
+      "name": "setting",
+      "type": "string",
+      "value": "a quiet farm valley with one dirt road winding to the keep"
+    },
+    {
+      "name": "boss10",
+      "type": "string",
+      "value": "Old Ironhide"
+    },
+    {
+      "name": "boss20",
+      "type": "string",
+      "value": "The Greenhollow Warlord"
+    }
+  ],
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "name": "bastion-placeholder",
+      "image": "placeholder-tiles.png",
+      "imagewidth": 528,
+      "imageheight": 48,
+      "tilewidth": 48,
+      "tileheight": 48,
+      "tilecount": 11,
+      "columns": 11,
+      "margin": 0,
+      "spacing": 0,
+      "tiles": [
+        {
+          "id": 0,
+          "properties": [
+            {
+              "name": "kind",
+              "type": "string",
+              "value": "ground"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "properties": [
+            {
+              "name": "kind",
+              "type": "string",
+              "value": "path"
+            },
+            {
+              "name": "segment",
+              "type": "string",
+              "value": "entrance"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "properties": [
+            {
+              "name": "kind",
+              "type": "string",
+              "value": "path"
+            },
+            {
+              "name": "segment",
+              "type": "string",
+              "value": "bend_1"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "properties": [
+            {
+              "name": "kind",
+              "type": "string",
+              "value": "path"
+            },
+            {
+              "name": "segment",
+              "type": "string",
+              "value": "long_straight"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "properties": [
+            {
+              "name": "kind",
+              "type": "string",
+              "value": "path"
+            },
+            {
+              "name": "segment",
+              "type": "string",
+              "value": "bend_2"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "properties": [
+            {
+              "name": "kind",
+              "type": "string",
+              "value": "path"
+            },
+            {
+              "name": "segment",
+              "type": "string",
+              "value": "core_approach"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "properties": [
+            {
+              "name": "kind",
+              "type": "string",
+              "value": "core"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "properties": [
+            {
+              "name": "kind",
+              "type": "string",
+              "value": "decor"
+            },
+            {
+              "name": "decor",
+              "type": "string",
+              "value": "tree"
+            },
+            {
+              "name": "blocked",
+              "type": "bool",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "properties": [
+            {
+              "name": "kind",
+              "type": "string",
+              "value": "decor"
+            },
+            {
+              "name": "decor",
+              "type": "string",
+              "value": "rock"
+            },
+            {
+              "name": "blocked",
+              "type": "bool",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "properties": [
+            {
+              "name": "kind",
+              "type": "string",
+              "value": "decor"
+            },
+            {
+              "name": "decor",
+              "type": "string",
+              "value": "farmhouse"
+            },
+            {
+              "name": "blocked",
+              "type": "bool",
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "properties": [
+            {
+              "name": "kind",
+              "type": "string",
+              "value": "decor"
+            },
+            {
+              "name": "decor",
+              "type": "string",
+              "value": "pond"
+            },
+            {
+              "name": "blocked",
+              "type": "bool",
+              "value": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "id": 1,
+      "name": "ground",
+      "type": "tilelayer",
+      "x": 0,
+      "y": 0,
+      "width": 20,
+      "height": 12,
+      "opacity": 1,
+      "visible": true,
+      "data": [
+        1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+      ]
+    },
+    {
+      "id": 2,
+      "name": "path",
+      "type": "tilelayer",
+      "x": 0,
+      "y": 0,
+      "width": 20,
+      "height": 12,
+      "opacity": 1,
+      "visible": true,
+      "data": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0,
+        0, 7, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 5, 5, 5, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ]
+    },
+    {
+      "id": 3,
+      "name": "decor",
+      "type": "tilelayer",
+      "x": 0,
+      "y": 0,
+      "width": 20,
+      "height": 12,
+      "opacity": 1,
+      "visible": true,
+      "data": [
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        8, 0, 0, 10, 10, 0, 0, 0, 0, 0, 0, 9, 0, 0, 0, 0, 0, 0, 0, 0,
+        8, 8, 0, 0, 0, 0, 0, 11, 11, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+      ]
+    },
+    {
+      "id": 4,
+      "name": "route",
+      "type": "objectgroup",
+      "draworder": "index",
+      "x": 0,
+      "y": 0,
+      "opacity": 1,
+      "visible": true,
+      "objects": [
+        {
+          "id": 1,
+          "name": "path",
+          "type": "path",
+          "x": -24,
+          "y": 72,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "polyline": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 912,
+              "y": 0
+            },
+            {
+              "x": 912,
+              "y": 432
+            },
+            {
+              "x": 96,
+              "y": 432
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "spawn",
+          "type": "spawn",
+          "x": -24,
+          "y": 72,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true
+        },
+        {
+          "id": 3,
+          "name": "core",
+          "type": "core",
+          "x": 72,
+          "y": 504,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": true,
+          "point": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "segments",
+      "type": "objectgroup",
+      "draworder": "index",
+      "x": 0,
+      "y": 0,
+      "opacity": 1,
+      "visible": true,
+      "objects": [
+        {
+          "id": 4,
+          "name": "entrance",
+          "type": "segment",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": false,
+          "point": true,
+          "properties": [
+            {
+              "name": "start",
+              "type": "float",
+              "value": 0
+            },
+            {
+              "name": "end",
+              "type": "float",
+              "value": 16.5
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "bend_1",
+          "type": "segment",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": false,
+          "point": true,
+          "properties": [
+            {
+              "name": "start",
+              "type": "float",
+              "value": 16.5
+            },
+            {
+              "name": "end",
+              "type": "float",
+              "value": 21.5
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "long_straight",
+          "type": "segment",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": false,
+          "point": true,
+          "properties": [
+            {
+              "name": "start",
+              "type": "float",
+              "value": 21.5
+            },
+            {
+              "name": "end",
+              "type": "float",
+              "value": 25.5
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "bend_2",
+          "type": "segment",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": false,
+          "point": true,
+          "properties": [
+            {
+              "name": "start",
+              "type": "float",
+              "value": 25.5
+            },
+            {
+              "name": "end",
+              "type": "float",
+              "value": 30.5
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "core_approach",
+          "type": "segment",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "rotation": 0,
+          "visible": false,
+          "point": true,
+          "properties": [
+            {
+              "name": "start",
+              "type": "float",
+              "value": 30.5
+            },
+            {
+              "name": "end",
+              "type": "float",
+              "value": 45
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "nextlayerid": 6,
+  "nextobjectid": 9
+}
