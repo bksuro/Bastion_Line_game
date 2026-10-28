@@ -1,0 +1,503 @@
+{
+  "version": 1,
+  "map": "easy",
+  "source": "scripted",
+  "waves": [
+    {
+      "wave": 1,
+      "groups": [
+        {
+          "enemy": "Grunt",
+          "count": 8,
+          "spawnIntervalMs": 1200,
+          "startDelayMs": 0
+        }
+      ],
+      "totalThreat": 8,
+      "previewText": "Wave 1: 8 Grunts",
+      "reason": "Tutorial wave: slow single file so Arrows learn the path."
+    },
+    {
+      "wave": 2,
+      "groups": [
+        {
+          "enemy": "Grunt",
+          "count": 10,
+          "spawnIntervalMs": 1400,
+          "startDelayMs": 0
+        }
+      ],
+      "totalThreat": 10,
+      "previewText": "Wave 2: 10 Grunts",
+      "reason": "More Grunts, still one type; wide spacing so three Arrows keep up."
+    },
+    {
+      "wave": 3,
+      "groups": [
+        {
+          "enemy": "Grunt",
+          "count": 6,
+          "spawnIntervalMs": 1300,
+          "startDelayMs": 0
+        },
+        {
+          "enemy": "Runner",
+          "count": 6,
+          "spawnIntervalMs": 1100,
+          "startDelayMs": 8000
+        }
+      ],
+      "totalThreat": 12,
+      "previewText": "Wave 3: 6 Grunts, then 6 Runners",
+      "reason": "Introduces Runners after Grunts so the speed difference reads."
+    },
+    {
+      "wave": 4,
+      "groups": [
+        {
+          "enemy": "Runner",
+          "count": 6,
+          "spawnIntervalMs": 800,
+          "startDelayMs": 0
+        },
+        {
+          "enemy": "Grunt",
+          "count": 8,
+          "spawnIntervalMs": 900,
+          "startDelayMs": 6000
+        }
+      ],
+      "totalThreat": 14,
+      "previewText": "Wave 4: 6 Runners, then 8 Grunts",
+      "reason": "Runners first to test early coverage near the entrance."
+    },
+    {
+      "wave": 5,
+      "groups": [
+        {
+          "enemy": "Grunt",
+          "count": 6,
+          "spawnIntervalMs": 1000,
+          "startDelayMs": 0
+        },
+        {
+          "enemy": "Brute",
+          "count": 2,
+          "spawnIntervalMs": 2500,
+          "startDelayMs": 6000
+        },
+        {
+          "enemy": "Runner",
+          "count": 3,
+          "spawnIntervalMs": 700,
+          "startDelayMs": 12000
+        }
+      ],
+      "totalThreat": 15,
+      "previewText": "Wave 5: Grunts, 2 Brutes, then Runners",
+      "reason": "Introduces Brutes; a Cannon or Frost bend should be up by now."
+    },
+    {
+      "wave": 6,
+      "groups": [
+        {
+          "enemy": "Runner",
+          "count": 5,
+          "spawnIntervalMs": 700,
+          "startDelayMs": 0
+        },
+        {
+          "enemy": "Grunt",
+          "count": 6,
+          "spawnIntervalMs": 900,
+          "startDelayMs": 4000
+        },
+        {
+          "enemy": "Brute",
+          "count": 2,
+          "spawnIntervalMs": 2000,
+          "startDelayMs": 10000
+        }
+      ],
+      "totalThreat": 17,
+      "previewText": "Wave 6: Runners, Grunts and 2 Brutes",
+      "reason": "Mixed pressure before Flyers arrive."
+    },
+    {
+      "wave": 7,
+      "groups": [
+        {
+          "enemy": "Grunt",
+          "count": 8,
+          "spawnIntervalMs": 900,
+          "startDelayMs": 0
+        },
+        {
+          "enemy": "Runner",
+          "count": 2,
+          "spawnIntervalMs": 700,
+          "startDelayMs": 5000
+        },
+        {
+          "enemy": "Flyer",
+          "count": 4,
+          "spawnIntervalMs": 1500,
+          "startDelayMs": 8000
+        }
+      ],
+      "totalThreat": 18,
+      "previewText": "Wave 7: 8 Grunts, 2 Runners, then 4 Flyers",
+      "reason": "Introduces Flyers; Arrows can already hit them, Sniper is affordable."
+    },
+    {
+      "wave": 8,
+      "groups": [
+        {
+          "enemy": "Brute",
+          "count": 3,
+          "spawnIntervalMs": 2200,
+          "startDelayMs": 0
+        },
+        {
+          "enemy": "Runner",
+          "count": 6,
+          "spawnIntervalMs": 700,
+          "startDelayMs": 5000
+        },
+        {
+          "enemy": "Grunt",
+          "count": 3,
+          "spawnIntervalMs": 900,
+          "startDelayMs": 9000
+        },
+        {
+          "enemy": "Flyer",
+          "count": 2,
+          "spawnIntervalMs": 1500,
+          "startDelayMs": 12000
+        }
+      ],
+      "totalThreat": 22,
+      "previewText": "Wave 8: 3 Brutes, Runners, Grunts, 2 Flyers",
+      "reason": "Tank front line shields Runners; small air check."
+    },
+    {
+      "wave": 9,
+      "groups": [
+        {
+          "enemy": "Flyer",
+          "count": 6,
+          "spawnIntervalMs": 1300,
+          "startDelayMs": 0
+        },
+        {
+          "enemy": "Grunt",
+          "count": 10,
+          "spawnIntervalMs": 800,
+          "startDelayMs": 4000
+        }
+      ],
+      "totalThreat": 22,
+      "previewText": "Wave 9: 6 Flyers, then 10 Grunts",
+      "reason": "Air-heavy wave right before the boss to test air coverage."
+    },
+    {
+      "wave": 10,
+      "groups": [
+        {
+          "enemy": "Grunt",
+          "count": 8,
+          "spawnIntervalMs": 900,
+          "startDelayMs": 0
+        },
+        {
+          "enemy": "Runner",
+          "count": 2,
+          "spawnIntervalMs": 700,
+          "startDelayMs": 7000
+        },
+        {
+          "enemy": "Boss",
+          "count": 1,
+          "spawnIntervalMs": 1000,
+          "startDelayMs": 10000
+        }
+      ],
+      "totalThreat": 25,
+      "previewText": "Wave 10: Grunts and Runners escort the Boss",
+      "reason": "First boss; light escort so single-target damage is the test."
+    },
+    {
+      "wave": 11,
+      "groups": [
+        {
+          "enemy": "Brute",
+          "count": 4,
+          "spawnIntervalMs": 2000,
+          "startDelayMs": 0
+        },
+        {
+          "enemy": "Runner",
+          "count": 8,
+          "spawnIntervalMs": 600,
+          "startDelayMs": 6000
+        },
+        {
+          "enemy": "Flyer",
+          "count": 4,
+          "spawnIntervalMs": 1400,
+          "startDelayMs": 11000
+        }
+      ],
+      "totalThreat": 28,
+      "previewText": "Wave 11: 4 Brutes, 8 Runners, 4 Flyers",
+      "reason": "All three threats at once after the boss payout."
+    },
+    {
+      "wave": 12,
+      "groups": [
+        {
+          "enemy": "Grunt",
+          "count": 12,
+          "spawnIntervalMs": 700,
+          "startDelayMs": 0
+        },
+        {
+          "enemy": "Flyer",
+          "count": 5,
+          "spawnIntervalMs": 1300,
+          "startDelayMs": 6000
+        },
+        {
+          "enemy": "Brute",
+          "count": 3,
+          "spawnIntervalMs": 2000,
+          "startDelayMs": 11000
+        }
+      ],
+      "totalThreat": 31,
+      "previewText": "Wave 12: 12 Grunts, 5 Flyers, 3 Brutes",
+      "reason": "Dense Grunts reward splash; Flyers keep air honest."
+    },
+    {
+      "wave": 13,
+      "groups": [
+        {
+          "enemy": "Runner",
+          "count": 16,
+          "spawnIntervalMs": 500,
+          "startDelayMs": 0
+        },
+        {
+          "enemy": "Brute",
+          "count": 5,
+          "spawnIntervalMs": 1800,
+          "startDelayMs": 8000
+        },
+        {
+          "enemy": "Flyer",
+          "count": 2,
+          "spawnIntervalMs": 1500,
+          "startDelayMs": 14000
+        }
+      ],
+      "totalThreat": 35,
+      "previewText": "Wave 13: 16 Runners, 5 Brutes, 2 Flyers",
+      "reason": "Runner rush tests slow and splash coverage."
+    },
+    {
+      "wave": 14,
+      "groups": [
+        {
+          "enemy": "Flyer",
+          "count": 8,
+          "spawnIntervalMs": 1100,
+          "startDelayMs": 0
+        },
+        {
+          "enemy": "Grunt",
+          "count": 14,
+          "spawnIntervalMs": 700,
+          "startDelayMs": 5000
+        },
+        {
+          "enemy": "Brute",
+          "count": 3,
+          "spawnIntervalMs": 2000,
+          "startDelayMs": 12000
+        }
+      ],
+      "totalThreat": 39,
+      "previewText": "Wave 14: 8 Flyers, 14 Grunts, 3 Brutes",
+      "reason": "Biggest air wave so far; needs upgraded air towers."
+    },
+    {
+      "wave": 15,
+      "groups": [
+        {
+          "enemy": "Brute",
+          "count": 8,
+          "spawnIntervalMs": 1600,
+          "startDelayMs": 0
+        },
+        {
+          "enemy": "Runner",
+          "count": 10,
+          "spawnIntervalMs": 600,
+          "startDelayMs": 8000
+        },
+        {
+          "enemy": "Flyer",
+          "count": 5,
+          "spawnIntervalMs": 1300,
+          "startDelayMs": 13000
+        }
+      ],
+      "totalThreat": 44,
+      "previewText": "Wave 15: 8 Brutes, 10 Runners, 5 Flyers",
+      "reason": "Heavy Brute wall tests upgraded single-target damage."
+    },
+    {
+      "wave": 16,
+      "groups": [
+        {
+          "enemy": "Grunt",
+          "count": 18,
+          "spawnIntervalMs": 600,
+          "startDelayMs": 0
+        },
+        {
+          "enemy": "Brute",
+          "count": 6,
+          "spawnIntervalMs": 1600,
+          "startDelayMs": 6000
+        },
+        {
+          "enemy": "Flyer",
+          "count": 6,
+          "spawnIntervalMs": 1200,
+          "startDelayMs": 12000
+        }
+      ],
+      "totalThreat": 48,
+      "previewText": "Wave 16: 18 Grunts, 6 Brutes, 6 Flyers",
+      "reason": "Wide mix; splash and air both needed."
+    },
+    {
+      "wave": 17,
+      "groups": [
+        {
+          "enemy": "Flyer",
+          "count": 12,
+          "spawnIntervalMs": 1000,
+          "startDelayMs": 0
+        },
+        {
+          "enemy": "Runner",
+          "count": 12,
+          "spawnIntervalMs": 500,
+          "startDelayMs": 6000
+        },
+        {
+          "enemy": "Brute",
+          "count": 6,
+          "spawnIntervalMs": 1600,
+          "startDelayMs": 11000
+        }
+      ],
+      "totalThreat": 54,
+      "previewText": "Wave 17: 12 Flyers, 12 Runners, 6 Brutes",
+      "reason": "Air-led assault punishes builds with weak anti-air."
+    },
+    {
+      "wave": 18,
+      "groups": [
+        {
+          "enemy": "Grunt",
+          "count": 20,
+          "spawnIntervalMs": 500,
+          "startDelayMs": 0
+        },
+        {
+          "enemy": "Brute",
+          "count": 8,
+          "spawnIntervalMs": 1500,
+          "startDelayMs": 6000
+        },
+        {
+          "enemy": "Flyer",
+          "count": 8,
+          "spawnIntervalMs": 1100,
+          "startDelayMs": 13000
+        }
+      ],
+      "totalThreat": 60,
+      "previewText": "Wave 18: 20 Grunts, 8 Brutes, 8 Flyers",
+      "reason": "Large ground mass then air follow-up."
+    },
+    {
+      "wave": 19,
+      "groups": [
+        {
+          "enemy": "Brute",
+          "count": 10,
+          "spawnIntervalMs": 1400,
+          "startDelayMs": 0
+        },
+        {
+          "enemy": "Runner",
+          "count": 15,
+          "spawnIntervalMs": 450,
+          "startDelayMs": 7000
+        },
+        {
+          "enemy": "Flyer",
+          "count": 10,
+          "spawnIntervalMs": 1000,
+          "startDelayMs": 12000
+        },
+        {
+          "enemy": "Grunt",
+          "count": 5,
+          "spawnIntervalMs": 700,
+          "startDelayMs": 18000
+        }
+      ],
+      "totalThreat": 70,
+      "previewText": "Wave 19: 10 Brutes, 15 Runners, 10 Flyers, 5 Grunts",
+      "reason": "Penultimate wave uses every regular type at high volume."
+    },
+    {
+      "wave": 20,
+      "groups": [
+        {
+          "enemy": "Grunt",
+          "count": 12,
+          "spawnIntervalMs": 600,
+          "startDelayMs": 0
+        },
+        {
+          "enemy": "Brute",
+          "count": 10,
+          "spawnIntervalMs": 1400,
+          "startDelayMs": 4000
+        },
+        {
+          "enemy": "Flyer",
+          "count": 10,
+          "spawnIntervalMs": 1000,
+          "startDelayMs": 12000
+        },
+        {
+          "enemy": "Boss",
+          "count": 1,
+          "spawnIntervalMs": 1000,
+          "startDelayMs": 18000
+        }
+      ],
+      "totalThreat": 77,
+      "previewText": "Wave 20: Grunts, Brutes, Flyers, then the Boss",
+      "reason": "Final assault: full mix, Boss arrives last behind the wall."
+    }
+  ]
+}

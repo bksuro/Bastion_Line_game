@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "enemies": {
+    "Grunt": {
+      "id": "Grunt",
+      "name": "Grunt",
+      "trait": "Baseline HP and speed",
+      "hp": 60,
+      "speed": 1.2,
+      "goldReward": 4,
+      "threatCost": 1,
+      "coreDamage": 1,
+      "flying": false,
+      "unlockWave": 1,
+      "bossWaves": [],
+      "radius": 0.3,
+      "color": "#c0503a"
+    },
+    "Runner": {
+      "id": "Runner",
+      "name": "Runner",
+      "trait": "Fast, low HP",
+      "hp": 36,
+      "speed": 2.0,
+      "goldReward": 3,
+      "threatCost": 1,
+      "coreDamage": 1,
+      "flying": false,
+      "unlockWave": 3,
+      "bossWaves": [],
+      "radius": 0.25,
+      "color": "#e8d04a"
+    },
+    "Brute": {
+      "id": "Brute",
+      "name": "Brute",
+      "trait": "Slow, high HP",
+      "hp": 240,
+      "speed": 0.7,
+      "goldReward": 10,
+      "threatCost": 3,
+      "coreDamage": 1,
+      "flying": false,
+      "unlockWave": 5,
+      "bossWaves": [],
+      "radius": 0.4,
+      "color": "#7a3b2e"
+    },
+    "Flyer": {
+      "id": "Flyer",
+      "name": "Flyer",
+      "trait": "Ignores ground-only towers",
+      "hp": 90,
+      "speed": 1.4,
+      "goldReward": 6,
+      "threatCost": 2,
+      "coreDamage": 1,
+      "flying": true,
+      "unlockWave": 7,
+      "bossWaves": [],
+      "radius": 0.3,
+      "color": "#4a7ae8"
+    },
+    "Boss": {
+      "id": "Boss",
+      "name": "Boss",
+      "trait": "Waves 10 and 20 only; huge HP; 5 core damage",
+      "hp": 2000,
+      "speed": 0.5,
+      "goldReward": 75,
+      "threatCost": 15,
+      "coreDamage": 5,
+      "flying": false,
+      "unlockWave": 10,
+      "bossWaves": [
+        10,
+        20
+      ],
+      "radius": 0.5,
+      "color": "#3a1a4a"
+    }
+  }
+}

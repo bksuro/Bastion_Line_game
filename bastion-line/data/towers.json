@@ -1,1 +1,196 @@
-initial file
+{
+  "version": 1,
+  "upgradeCostPct": [
+    0.6,
+    1.0,
+    1.5
+  ],
+  "sellRefundPct": 0.7,
+  "maxLevel": 4,
+  "towers": {
+    "Arrow": {
+      "id": "Arrow",
+      "name": "Arrow",
+      "role": "Cheap, fast single-target",
+      "cost": 50,
+      "damage": 10,
+      "range": 2.5,
+      "fireRateMs": 700,
+      "canHitAir": true,
+      "splashRadius": 0,
+      "slowPct": 0,
+      "slowMs": 0,
+      "projectileSpeed": 12,
+      "upgradeCosts": [
+        30,
+        50,
+        75
+      ],
+      "levelMultipliers": {
+        "damage": [
+          1.0,
+          1.4,
+          1.96,
+          2.74
+        ],
+        "range": [
+          1.0,
+          1.05,
+          1.1,
+          1.15
+        ],
+        "fireRate": [
+          1.0,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "slowDuration": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#d9a441"
+    },
+    "Frost": {
+      "id": "Frost",
+      "name": "Frost",
+      "role": "Slows enemies 40%",
+      "cost": 75,
+      "damage": 5,
+      "range": 2.0,
+      "fireRateMs": 900,
+      "canHitAir": false,
+      "splashRadius": 0.75,
+      "slowPct": 40,
+      "slowMs": 1500,
+      "projectileSpeed": 10,
+      "upgradeCosts": [
+        45,
+        75,
+        113
+      ],
+      "levelMultipliers": {
+        "damage": [
+          1.0,
+          1.4,
+          1.96,
+          2.74
+        ],
+        "range": [
+          1.0,
+          1.1,
+          1.2,
+          1.3
+        ],
+        "fireRate": [
+          1.0,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "slowDuration": [
+          1.0,
+          1.25,
+          1.5,
+          1.75
+        ]
+      },
+      "color": "#6cc4e8"
+    },
+    "Cannon": {
+      "id": "Cannon",
+      "name": "Cannon",
+      "role": "Splash damage, slow fire",
+      "cost": 100,
+      "damage": 32,
+      "range": 2.5,
+      "fireRateMs": 1500,
+      "canHitAir": false,
+      "splashRadius": 1.0,
+      "slowPct": 0,
+      "slowMs": 0,
+      "projectileSpeed": 7,
+      "upgradeCosts": [
+        60,
+        100,
+        150
+      ],
+      "levelMultipliers": {
+        "damage": [
+          1.0,
+          1.4,
+          1.96,
+          2.74
+        ],
+        "range": [
+          1.0,
+          1.05,
+          1.1,
+          1.15
+        ],
+        "fireRate": [
+          1.0,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "slowDuration": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8a8a8a"
+    },
+    "Sniper": {
+      "id": "Sniper",
+      "name": "Sniper",
+      "role": "Long range, high damage",
+      "cost": 150,
+      "damage": 80,
+      "range": 5.0,
+      "fireRateMs": 2000,
+      "canHitAir": true,
+      "splashRadius": 0,
+      "slowPct": 0,
+      "slowMs": 0,
+      "projectileSpeed": 25,
+      "upgradeCosts": [
+        90,
+        150,
+        225
+      ],
+      "levelMultipliers": {
+        "damage": [
+          1.0,
+          1.4,
+          1.96,
+          2.74
+        ],
+        "range": [
+          1.0,
+          1.05,
+          1.1,
+          1.15
+        ],
+        "fireRate": [
+          1.0,
+          0.9,
+          0.85,
+          0.8
+        ],
+        "slowDuration": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#b05ad6"
+    }
+  }
+}

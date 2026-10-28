@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "startGold": 200,
+  "startCoreHp": 20,
+  "waveClearBonus": {
+    "base": 25,
+    "perWave": 5
+  },
+  "earlyStart": {
+    "buildTimerMs": 20000,
+    "maxBonus": 5,
+    "firstWaveTimed": false
+  },
+  "threat": {
+    "wave1Budget": 10,
+    "budgetGrowth": 1.12,
+    "minSpendPct": 0.8,
+    "rounding": "roundHalfUp"
+  },
+  "enemyHpMultiplierPerWave": 1.10,
+  "stars": {
+    "threeStarRequiresNoCoreDamage": true,
+    "twoStarMinHpPct": 0.5,
+    "oneStarOnClear": true
+  },
+  "hintsPerMap": 3,
+  "waveCount": 20,
+  "grid": {
+    "cols": 20,
+    "rows": 12,
+    "tileSize": 48,
+    "width": 960,
+    "height": 576
+  },
+  "gameSpeeds": [
+    1,
+    2,
+    3
+  ],
+  "simPathLengthTiles": 45
+}
